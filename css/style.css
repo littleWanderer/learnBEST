@@ -7,6 +7,7 @@
 	background-size: cover;
 	color: black;
 
+
  }
 
 #zoom_in_sa_crtom, #zoom_in_bez {
@@ -32,11 +33,11 @@
 }
 
 .db{
-	color: black /* #008040 */
+	color: black 
 }
 
 .ft{
-	color: white  /* #660000; */
+	color: white  
 
 }
 
