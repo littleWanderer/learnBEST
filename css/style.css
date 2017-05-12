@@ -1,0 +1,43 @@
+.learning_natpis{
+	float: right; /*proveriti zasto ne radi*/
+
+}
+
+body { background: black !important; }
+
+#zoom_in_sa_crtom, #zoom_in_bez {
+	height: 15em;
+	width: 80%;
+	margin-bottom: 1em;
+	margin-left: 10%;
+	border-bottom-color:#acac86;
+	transition: all .2s ease-in-out;
+}
+
+#zoom_in_sa_crtom{
+	border-bottom-style: solid;
+	border-bottom-color:#acac86;
+}
+
+
+
+.ft, .db{
+	font-size: 5em;
+	font-style: bold;
+	font-family: Georgia; 
+	text-align: center;
+	transition: all .2s ease-in-out;
+}
+
+.db{
+	color: #008040
+}
+
+.ft{
+	color: #660000;
+
+}
+
+#zoom_in_bez:hover, #zoom_in_sa_crtom:hover {
+	transform: scale(1.1);
+}
