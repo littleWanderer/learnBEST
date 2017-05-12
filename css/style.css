@@ -1,15 +1,16 @@
-.learning_natpis{
-	float: right; /*proveriti zasto ne radi*/
 
-}
+.pocetna { 
+	/*background: black !important;*/
+	background: url("../img/tech.jpg") no-repeat center center scroll;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	color: black;
 
-body { background: black !important; }
+ }
 
 #zoom_in_sa_crtom, #zoom_in_bez {
-	height: 15em;
-	width: 80%;
-	margin-bottom: 1em;
-	margin-left: 10%;
+	
 	border-bottom-color:#acac86;
 	transition: all .2s ease-in-out;
 	overflow: hidden;
@@ -17,7 +18,7 @@ body { background: black !important; }
 
 #zoom_in_sa_crtom{
 	border-bottom-style: solid;
-	border-bottom-color:#acac86;
+	border-bottom-color:black;
 }
 
 
@@ -31,11 +32,11 @@ body { background: black !important; }
 }
 
 .db{
-	color: #008040
+	color: black /* #008040 */
 }
 
 .ft{
-	color: #660000;
+	color: white  /* #660000; */
 
 }
 
