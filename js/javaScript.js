@@ -4,12 +4,11 @@ var theToggle = document.getElementById('toggle');
 // based on Todd Motto  functions
 // http://toddmotto.com/labs/reusable-js/
 
-<<<<<<< HEAD
 // hasClass_  
 
-=======
+
 // hasClass
->>>>>>> 967cdb438376d14dad2003953cdacc0c06c73aef
+
 function hasClass(elem, className) {
 	return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
 }
