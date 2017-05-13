@@ -1,3 +1,4 @@
+
 footer{
 	background-color: black;
 }
@@ -20,4 +21,51 @@ footer{
 body, html{
 	width: 100%;
 	height: 100%;
+
+
+.pocetna { 
+	/*background: black !important;*/
+	background: url("../img/tech.jpg") no-repeat center center scroll;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	color: black;
+
+
+ }
+
+#zoom_in_sa_crtom, #zoom_in_bez {
+	
+	border-bottom-color:#acac86;
+	transition: all .2s ease-in-out;
+	overflow: hidden;
+}
+
+#zoom_in_sa_crtom{
+	border-bottom-style: solid;
+	border-bottom-color:black;
+}
+
+
+
+.ft, .db{
+	font-size: 5em;
+	font-style: bold;
+	font-family: Georgia; 
+	text-align: center;
+	transition: all .2s ease-in-out;
+}
+
+.db{
+	color: black 
+}
+
+.ft{
+	color: white  
+
+}
+
+#zoom_in_bez:hover, #zoom_in_sa_crtom:hover {
+	transform: scale(1.1);
+
 }
