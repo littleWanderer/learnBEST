@@ -1,0 +1,23 @@
+footer{
+	background-color: black;
+}
+#slike img{
+	width: 45px;
+	height: 45px;
+	margin-top: 10px;
+}
+
+#copy{
+	font-family: tahoma;
+	margin-top: 25px;
+	color: white;
+}
+#logo img{
+	width: 165px;
+	height: 75px;
+	margin-bottom: 10px;
+}
+body, html{
+	width: 100%;
+	height: 100%;
+}
