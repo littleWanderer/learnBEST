@@ -1,13 +1,10 @@
 /* Dinamika  sajta */
 var theToggle = document.getElementById('toggle');
 
-// based on Todd Motto  functions
-// http://toddmotto.com/labs/reusable-js/
+
 
 // hasClass_  
 
-
-// hasClass
 
 function hasClass(elem, className) {
 	return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');

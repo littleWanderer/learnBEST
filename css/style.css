@@ -1,25 +1,16 @@
 
 .header {
-
 	background-color: transparent;
 	color: white;
-	font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif;
 	text-align: left;
 }
-
-
 
 #toggle {
   display: block;
   width: 28px;
   height: 30px;
-
   margin-top:  25%;
 }
-
-
-
-
 
 #toggle span:after,
 #toggle span:before {
@@ -44,7 +35,7 @@
 
   background-color: #fff;
 
-  background-color: #888;
+  background-color: white;
 
   transition: all 0.3s;
   backface-visibility: hidden;
@@ -116,7 +107,11 @@ li a:focus {
   color: #fff;
 }
 
+.header .wd_natpis{
+  text-shadow: 2px 2px 2px black;
+  font-family: "Kaushan Script" sans-serif !important;
 
+}
 
 
 footer{
@@ -147,7 +142,7 @@ footer{
 
 .pocetna { 
 	/*background: black !important;*/
-	background: url("../img/tech.jpg") no-repeat center center scroll;
+	background: url("../img/b.jpg") no-repeat center center scroll;
 	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;
@@ -171,7 +166,7 @@ footer{
 
 
 .ft, .db{
-	font-size: 5em;
+	font-size: 4em;
 	font-style: bold;
 	font-family: Georgia; 
 	text-align: center;
@@ -179,11 +174,13 @@ footer{
 }
 
 .db{
-	color: black 
+	color: black;
+   text-shadow: 1px 1px 0px #888;
 }
 
 .ft{
-	color: #888;  
+	color: #888; 
+  text-shadow: 2px 2px 0px #330000;
 
 }
 
