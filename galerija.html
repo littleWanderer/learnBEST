@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
+  <head>
+
+  	<meta charset="UTF-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="Tutorials about web development gathered by volunteers of BEST Belgrade"/>
+    <meta name="keywords" content="">
+    <meta name="author" content="BEST Belgrade 2017">
+
+
+   <meta property="og:image" content="http://www.learn.best.rs/img/fbPic.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+
+
+  	<title>BEST Web Dev</title>
+
+  	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Vollkorn">
+  	
+  	<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+
+    <link rel="shortcut icon" href="img/learn.ico" >
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+
+  
+  
+  	<script type="text/javascript" src="js/javaScript.js"></script>
+  	
+
+    <!-- Stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+     
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="plugins/owlcarousel2/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/owlcarousel2/owl.theme.default.min.css">
+
+    
+      <!-- Yeah i know js should not be in header. Its required for demos.-->
+
+      <!-- javascript -->
+    <script src="plugins/owlcarousel2/jquery.min.js"></script>
+    <script src="plugins/owlcarousel2/owl.carousel.js"></script>
+
+
+     
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.2/owl.carousel.css" rel="stylesheet" />
+    
+    <script type="text/javascript" src="js/javaScript.js"></script>
+    <script type="text/javascript" src="js/smooth.js"></script>
+
+
+  </head>
+  <body >
+  	<header class="header_o_nama">
+  		<div class="container" >
+  			<div class="col-md-12">
+  				<ul class="nav_bar"  id="meni">
+  					<li >
+  						<a href="index.html" class="active"><span class="glyphicon glyphicon-home custom" ></span></a>  
+  					</li>	
+  					<li>
+  						<a href="o_nama.html" class="active" >O nama</a>
+  					</li>
+  					<li>
+  						<div class="dropdown" align="middle" class="active">
+  						  <a >Tutorijali <b class="caret"></b></a>
+  						  
+  						  <div class="dropdown-content">
+  						    <a href="#f">Front-end</a>
+  						    <a href="#b">Back-end</a>
+  						    <a href="#db">DBMS</a>
+  						  </div>
+  						</div>
+  					</li>
+            
+  				</ul>
+          <div class="mali_meni" align="right" onclick="prikazi('mali_drop')">
+              <a ><i class="fa fa-bars fa-2x" aria-hidden="true"  ></i></a>
+            </div>
+          </div>
+        </div>
+
+
+      </header>
+
+
+      <div class="col-sm-12 dropdown-content-mali" id="mali_drop" style="background-color: black;">
+                  <a href="index.html">Početna</a>
+                  <a href="o_nama.html">O nama</a>
+                  <a href="galerija.html">Tutorijali</a>
+                    
+      </div>
+
+  	<section style="background-color: rgba(0,0,0,0.9); padding-top:25px; padding-bottom:80px">
+  		<div class="container" style="background-color: #222; margin-bottom: 50px" id="f" >
+  		<p style="color: #F77544; font-weight: 550; text-align: center;  font-size:50px; padding-top: 0px; font-family: 'Bree Serif', serif; " >FRONT-END tehnologije</p>    <!--  Demos -->
+      <section id="demos">
+        <div class="row" style="padding:0 5px">
+          <div class="large-12 columns">
+            <div class="owl-carousel owl-theme">
+              <div class="item" style=" background-color:#323233; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8)"  >
+               <a href="tutorijali.html#css"><img style="height:150px " class="slika_gal"  src="img/css.png"></a>
+              </div>
+              <div class="item"  style=" background-color:#323233; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8)"  >
+                <a href="tutorijali.html#html"><img style="height:150px" class="slika_gal"  src="img/html.png"></a>
+              </div>
+              <div class="item"  style=" background-color:#323233; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8)"  >
+                <a href="tutorijali.html#angular"><img style="height:150px" class="slika_gal" src="img/angular.png"></a>
+              </div>
+              <div class="item"  style=" background-color:#323233; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8)" >
+                <a href="tutorijali.html#bootstrap"><img style="height:150px" class="slika_gal" src="img/bootstrap.png"></a>
+              </div>
+              <div class="item"  style=" background-color:#323233; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8)" >
+                <a href="tutorijali.html#js"><img style="height:150px" class="slika_gal" src="img/js.png"></a>
+              </div>
+              <div class="item"  style=" background-color:#323233; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8)" >
+              <a href="tutorijali.html#jq"><img style="height:150px" class="slika_gal" src="img/jquery.png"></a>
+              
+              </div>
+              <div class="item" style=" background-color:#323233; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8)">
+               <a href="tutorijali.html#react"><img style="height:150px "  class="slika_gal" src="img/react.png"></a>
+              </div>
+              <div class="item"  style=" background-color:#323233; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8)" >
+                <a href="tutorijali.html#sass"><img style="height:150px" class="slika_gal" src="img/sass.png"></a>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <div class="container" style="background-color: #222; margin-bottom: 50px" id="b">
+      <p style="color: #F77544; text-align: center;  font-size:50px; padding-top: 0px; font-family: 'Bree Serif', serif " >BACK-END tehnologije</p>    <!--  Demos -->
+      <section id="demos">
+      
+        <div class="row" style="padding:0 5px">
+          <div class="large-12 columns">
+            <div class="owl-carousel owl-theme">
+              
+              <div class="item" style=" background-color:#323233; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8)" >
+                <a href="tutorijali.html#java"><img style="height:150px"  class="slika_gal"  src="img/java.png"></a>
+              </div>
+              <div class="item" style=" background-color:#323233; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8)" >
+                <a href="tutorijali.html#php"><img style="height:150px " class="slika_gal"  src="img/php.png"></a>
+              </div>
+              <div class="item" style=" background-color:#323233; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8)">
+               <a href="tutorijali.html#python"><img style="height:150px "  class="slika_gal" src="img/python.png"></a>
+              </div>
+              <div class="item" style=" background-color:#323233; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8)">
+               <a href="tutorijali.html#ruby"><img style="height:150px "  class="slika_gal" src="img/ruby.png"></a>
+              </div>
+              <div class="item" style=" background-color:#323233; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8)" >
+               <a href="tutorijali.html#node"><img style="height:150px "  class="slika_gal" src="img/node.png"></a>
+              </div>
+           </div>
+          </div>
+        </div> 
+      </div>
+
+      <div class="container" style="background-color: #222 ;" id="db">
+      <p style="color: #F77544; text-align: center;  font-size:50px; padding-top: 0px; font-family: 'Bree Serif', serif; " >DATABASE management</p> 
+        <div class="row" style="padding:0 5px">
+          <div class="large-12 columns">
+            <div class="owl-carousel owl-theme">
+              <div class="item" style=" background-color:#323233; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8)" >
+                <a href="tutorijali.html#jdbc"><img style="height:150px ; " class="slika_gal"  src="img/jdbc.png"></a>
+              </div>
+              <div class="item" style=" background-color:#323233; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8)">
+                <a href="tutorijali.html#jpa"><img style="height:150px "  class="slika_gal" src="img/jpa.png"></a>
+              </div>
+              <div class="item" style=" background-color:#323233; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8)">
+                <a href="tutorijali.html#sql"><img style="height:150px "  class="slika_gal" src="img/sqlL.png"></a>
+              </div>
+              <div class="item" style=" background-color:#323233; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8)">
+                <a href="tutorijali.html#mongo"><img style="height:150px "  class="slika_gal" src="img/mongodb.png"></a>
+              </div>
+              <div class="item" style=" background-color:#323233; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8)">
+                <a href="tutorijali.html#mysql"><img style="height:150px " class="slika_gal"  src="img/mySqlLogo.png"></a>
+              </div>
+           </div>
+          </div>
+        </div> 
+      </div>
+      <section id="demos">
+
+          
+
+            <script>
+              $(document).ready(function() {
+                var owl = $('.owl-carousel');
+                owl.owlCarousel({
+                  items: 4,
+                  loop: true,
+                  margin: 10,
+                  responsiveClass:true,
+                  responsive:{
+                      0:{
+                         items:2,
+              
+                      },
+                     600:{
+                          items:3,
+                          nav:false
+                      },
+                      1000:{
+                          items:5,
+                       }
+                 }
+                });
+               
+              })
+            </script>
+         
+        
+      </section>
+  		</div>
+  	</section>
+
+    
+  	<footer>
+
+
+  		<div class="text-center center-block" id="slike">
+  			
+  			<a href="https://www.facebook.com/udruzenje.studenata.tehnike.evrope.best.beograd/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+              <a href="https://twitter.com/best_bg"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+              <a href="https://www.instagram.com/best_belgrade/"><i id="social-insta" class="fa fa-instagram fa-3x social" ></i></a>
+              <a href="mailto:beograd@best.eu.org"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+              <a href="http://best.rs/"><i id="social-tw" class="fa fa-chrome social"></i></a>
+  			
+  		
+  		</div>
+      <a href="#" onclick="scrollToTop();return false" id="return-to-top"><i class="fa fa-sort-asc "></i></a>
+  
+  	</footer>
+
+   
+
+
+    
+
+
+  </body>
+</html>
